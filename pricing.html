@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing — Verona Elite Hair</title>
+<meta name="description" content="Indicative pricing for hair extension services, correction, coloring, premium in-house hair and care products at Verona Elite Hair.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a class="brand" href="index.html">Verona Elite Hair<span data-en>Premium Hair Extension Studio</span><span data-ru>Студия наращивания волос премиум-класса</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+    <nav>
+      <ul>
+        <li><a href="index.html" data-en>Home</a><a href="index.html" data-ru>Главная</a></li>
+        <li><a href="about.html" data-en>About</a><a href="about.html" data-ru>О нас</a></li>
+        <li><a href="services.html" data-en>Services</a><a href="services.html" data-ru>Услуги</a></li>
+        <li><a class="current" href="pricing.html" data-en>Pricing</a><a class="current" href="pricing.html" data-ru>Цены</a></li>
+        <li><a href="colors.html" data-en>Hair &amp; Colors</a><a href="colors.html" data-ru>Волосы и цвета</a></li>
+        <li><a href="gallery.html" data-en>Gallery</a><a href="gallery.html" data-ru>Галерея</a></li>
+        <li><a href="training.html" data-en>Training &amp; Franchise</a><a href="training.html" data-ru>Обучение и франшиза</a></li>
+        <li><a href="contact.html" data-en>Contact</a><a href="contact.html" data-ru>Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+      <button id="btn-ru" onclick="setLang('ru')">RU</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 data-en>Pricing</h1>
+    <h1 data-ru>Цены</h1>
+    <p data-en>Transparent, indicative starting prices for our services and products. Final quotes depend on hair length, density and desired volume.</p>
+    <p data-ru>Прозрачные ориентировочные цены на услуги и товары. Финальная стоимость зависит от длины, плотности и желаемого объёма волос.</p>
+  </section>
+
+  <section>
+    <div class="grid">
+
+      <div class="card price-card">
+        <span class="tier" data-en>Product</span><span class="tier" data-ru>Товар</span>
+        <h3 data-en>Premium Extension Hair</h3><h3 data-ru>Волосы премиум-класса</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$320</div>
+        <div class="unit" data-en>per bundle · in-house production</div>
+        <div class="unit" data-ru>за прядь · собственное производство</div>
+        <ul class="feat">
+          <li><span data-en>Three premium hair types</span><span data-ru>Три типа премиум-волос</span></li>
+          <li><span data-en>Density &amp; structure options</span><span data-ru>Разная плотность и структура</span></li>
+          <li><span data-en>Lengths from 40 to 70 cm</span><span data-ru>Длина от 40 до 70 см</span></li>
+        </ul>
+        <a class="btn outline" href="contact.html" data-en>Enquire</a>
+        <a class="btn outline" href="contact.html" data-ru>Узнать</a>
+      </div>
+
+      <div class="card price-card popular">
+        <span class="tier" data-en>Full Set</span><span class="tier" data-ru>Полный набор</span>
+        <h3 data-en>Capsule Hair Extension</h3><h3 data-ru>Капсульное наращивание</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$890</div>
+        <div class="unit" data-en>full head · hair included</div>
+        <div class="unit" data-ru>полная голова · волосы включены</div>
+        <ul class="feat">
+          <li><span data-en>Standard &amp; micro-capsules</span><span data-ru>Стандартные и микрокапсулы</span></li>
+          <li><span data-en>Tailored to your hair</span><span data-ru>Подбор под ваши волосы</span></li>
+          <li><span data-en>3–5 hour master session</span><span data-ru>Сеанс мастера 3–5 часов</span></li>
+        </ul>
+        <a class="btn" href="contact.html" data-en>Book Now</a>
+        <a class="btn" href="contact.html" data-ru>Записаться</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tier" data-en>Maintenance</span><span class="tier" data-ru>Обслуживание</span>
+        <h3 data-en>Correction &amp; Care</h3><h3 data-ru>Коррекция и уход</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$180</div>
+        <div class="unit" data-en>every 2–3 months</div>
+        <div class="unit" data-ru>каждые 2–3 месяца</div>
+        <ul class="feat">
+          <li><span data-en>Bond removal &amp; re-application</span><span data-ru>Снятие и повторная установка</span></li>
+          <li><span data-en>Hair condition check</span><span data-ru>Проверка состояния волос</span></li>
+          <li><span data-en>Keeps volume natural</span><span data-ru>Сохраняет естественный объём</span></li>
+        </ul>
+        <a class="btn outline" href="contact.html" data-en>Book Now</a>
+        <a class="btn outline" href="contact.html" data-ru>Записаться</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tier" data-en>Service</span><span class="tier" data-ru>Услуга</span>
+        <h3 data-en>Coloring &amp; Toning</h3><h3 data-ru>Окрашивание и тонирование</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$120</div>
+        <div class="unit" data-en>pre-extension preparation</div>
+        <div class="unit" data-ru>подготовка перед наращиванием</div>
+        <ul class="feat">
+          <li><span data-en>Root &amp; length colour match</span><span data-ru>Подбор цвета корней и длины</span></li>
+          <li><span data-en>Blending &amp; toning</span><span data-ru>Тонирование и растяжка</span></li>
+          <li><span data-en>Salon-quality products</span><span data-ru>Профессиональная косметика</span></li>
+        </ul>
+        <a class="btn outline" href="contact.html" data-en>Book Now</a>
+        <a class="btn outline" href="contact.html" data-ru>Записаться</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tier" data-en>Retail</span><span class="tier" data-ru>Розница</span>
+        <h3 data-en>Retail Hair Sales</h3><h3 data-ru>Розничная продажа волос</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$260</div>
+        <div class="unit" data-en>per 100 g · any colour</div>
+        <div class="unit" data-ru>за 100 г · любой цвет</div>
+        <ul class="feat">
+          <li><span data-en>Any structure &amp; length</span><span data-ru>Любая структура и длина</span></li>
+          <li><span data-en>Straight, wave or curl</span><span data-ru>Прямые, волна или кудри</span></li>
+          <li><span data-en>Ships to 50+ studios</span><span data-ru>Поставка в 50+ студий</span></li>
+        </ul>
+        <a class="btn outline" href="contact.html" data-en>Order</a>
+        <a class="btn outline" href="contact.html" data-ru>Заказать</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tier" data-en>Aftercare</span><span class="tier" data-ru>Уход</span>
+        <h3 data-en>Hair Care Products</h3><h3 data-ru>Средства по уходу</h3>
+        <div class="price"><span class="from" data-en>from</span><span class="from" data-ru>от</span>$35</div>
+        <div class="unit" data-en>per item · professional line</div>
+        <div class="unit" data-ru>за единицу · профессиональная линия</div>
+        <ul class="feat">
+          <li><span data-en>Shampoo, masks &amp; oils</span><span data-ru>Шампуни, маски и масла</span></li>
+          <li><span data-en>Safe for capsules</span><span data-ru>Безопасно для капсул</span></li>
+          <li><span data-en>Extends time between visits</span><span data-ru>Продлевает результат</span></li>
+        </ul>
+        <a class="btn outline" href="contact.html" data-en>Shop</a>
+        <a class="btn outline" href="contact.html" data-ru>Купить</a>
+      </div>
+
+    </div>
+
+    <p class="note" data-en>Prices shown are indicative starting points in USD and may vary by hair length, density, desired volume and studio location (Saint Petersburg / Dubai). Please confirm the current quote directly via our <a href="contact.html">contact page</a> or official social channels before booking.</p>
+    <p class="note" data-ru>Указанные цены являются ориентировочными (в долларах США) и могут отличаться в зависимости от длины, плотности, желаемого объёма волос и расположения студии (Санкт-Петербург / Дубай). Уточняйте актуальную стоимость на <a href="contact.html">странице контактов</a> или в официальных социальных сетях перед записью.</p>
+  </section>
+
+  <section class="cta">
+    <div class="cta-inner">
+      <h2 data-en>Not Sure Which Option Fits?</h2>
+      <h2 data-ru>Не знаете, что выбрать?</h2>
+      <p data-en>Book a free consultation and our specialists will recommend the right service and give you an exact quote.</p>
+      <p data-ru>Запишитесь на бесплатную консультацию — наши мастера подберут услугу и назовут точную стоимость.</p>
+      <a class="btn light" href="contact.html" data-en>Book a Consultation</a>
+      <a class="btn light" href="contact.html" data-ru>Записаться на консультацию</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Verona Elite Hair — VERONAVOLOS ENTERPRISE</p>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
